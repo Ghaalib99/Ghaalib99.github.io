@@ -72,9 +72,12 @@ body{
        
 }
 
+@media(max-width: 600px) {
+    
+    .grid-part{
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+       
+}
 
-
-
-<div class="carousel-item active">
-                    
-                  </div>
