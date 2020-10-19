@@ -72,11 +72,23 @@ body{
        
 }
 
-@media(max-width: 600px) {
-    
+@media(max-width: 500px) {
+    body{
+        font-size: 1.5 !important;
+    }
+
+    button{
+        /* width: 50px !important; */
+    }
+
+    .white-background{
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+
     .grid-part{
-        padding-left: 2px;
-        padding-right: 2px;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
     }
        
 }
